@@ -1,0 +1,5 @@
+{
+  "name": "Ollama Chat Frontend",
+  "description": "A React-based frontend for an Ollama/Python backend with ChromaDB memory, featuring full-page and embedded chat interfaces.",
+  "requestFramePermissions": []
+}
