@@ -19,7 +19,7 @@ const BackendStatusBanner: React.FC<{ isOffline: boolean }> = ({ isOffline }) =>
 };
 
 // Wrapper to handle query params and layout logic
-const AppContent: React.FC = () => {
+export const AppContent: React.FC = () => {
   const location = useLocation();
   const [isBackendOffline, setIsBackendOffline] = useState(false);
   
